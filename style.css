@@ -1,0 +1,81 @@
+body{
+    font-family: 'Sarasa Mono SC';
+    background-color: #2e3440;
+    text-align: center;
+}
+#calculator{
+    width: 320px;
+    height: 520px;
+    background-color:#3b4252;
+    margin: auto;
+    top: 50px;
+    position: relative;
+    border-radius: 20px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+}
+#result{
+    height: 120px;
+}
+#keyboard{
+    height: 400px;
+}
+#history{
+    text-align: right;
+    height: 20px;
+    margin: 10px 20px;
+    padding-top: 20px;
+    font-size: 15px;
+    color: #d8dee9;
+}
+#output{
+    text-align: right;
+    height: 60px;
+    margin: 0 20px;
+    font-size: 30px;
+    color: #eceff4;
+}
+.operator, .number, .functionKeys,.decorator{
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    float: left;
+    border-radius: 30%;
+    font-family: "Sarasa Mono SC";
+    color: #2e3440;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 18px;
+}
+.number, .operator,.functionKeys,.decorator{
+    cursor: pointer;
+}
+.operator:active, .number:active, .functionKeys:active,.decorator:active{
+    font-size: 15px;
+}
+.operator:focus, .number:focus{
+    outline: 0;
+}
+.operator{
+    background-color: #ebcb8b;
+}
+#equal{
+    background-color: #bf616a;
+}
+.functionKeys{
+    background-color: #a3be8c;
+}
+.number{
+    background-color: #88c0d0;
+}
+.decorator{
+    background-color: #d08770;
+}
+
+#foot{
+    color:#78849b;
+    font-size: 14px;
+    position:fixed;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+}
